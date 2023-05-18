@@ -5,71 +5,71 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.section {
+  }
+  
+  .section {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 10px;
     text-align: center;
-}
-
-.section h2 {
+  }
+  
+  .section h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-}
-
-.section p {
+  }
+  
+  .section p {
     font-size: 18px;
     margin-bottom: 20px;
-}
-
-.section ul {
+  }
+  
+  .section ul {
     list-style: none;
     padding: 0;
     text-align: left;
-}
-
-.section li {
+  }
+  
+  .section li {
     margin-bottom: 10px;
-}
-
-.section li a {
+  }
+  
+  .section li a {
     display: inline-block;
-    padding: 8px 12px;
+    padding: 10px 20px;
     border: 2px solid #1b3d78;
     border-radius: 5px;
     text-decoration: none;
     color: #1b3d78;
     font-weight: bold;
     transition: background-color 0.3s ease;
-}
-
-.section li a:hover {
+  }
+  
+  .section li a:hover {
     background-color: #1b3d78;
     color: #fff;
-}
-
-.navbar {
+  }
+  
+  .navbar {
     background-color: #001437;
     overflow: hidden;
     margin: 0;
     display: flex;
     align-items: center;
     width: 100%;
-}
-
-.navbar-title {
+  }
+  
+  .navbar-title {
     color: #fff;
     font-size: 24px;
     font-weight: bold;
     padding: 0 16px;
-}
-
-.navbar a {
+  }
+  
+  .navbar a {
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -79,56 +79,60 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.navbar a:hover {
+  }
+  
+  .navbar a:hover {
     background-color: #939393;
     border-radius: 10px;
-}
-
-.navbar a.active {
+  }
+  
+  .navbar a.active {
     background-color: #1b3d78;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
     border-radius: 10px;
-}
-
-.navbar a.active,
-.navbar-title {
+  }
+  
+  .navbar a.active,
+  .navbar-title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #fff;
-}
-
-.navbar a:not(.active) {
+  }
+  
+  .navbar a:not(.active) {
     font-weight: 800;
-}
-
-@media screen and (max-width: 768px) {
+  }
+  
+  @media screen and (max-width: 768px) {
     .navbar {
-        flex-wrap: wrap;
+      flex-wrap: wrap;
     }
-
+  
     .navbar a {
-        flex: 1 1 100%;
+      flex: 1 1 100%;
     }
-}
-
-.earth-image {
-    width: 100%;
+  }
+  
+  .earth-image {
+    margin-top: 10px;
+    max-width: 100%;
     height: auto;
-    border-radius: 10px;
-}
-
-.gif-iframe {
+    margin-bottom: 20px;
+  }
+  
+  .gif-iframe {
+    margin-top: 10px;
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-iframe,
-p {
-    text-align: center;
-}
+    max-height: 400px;
+    object-fit: contain;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
