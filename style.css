@@ -39,6 +39,7 @@ body {
   
   .section li a {
     display: inline-block;
+    width: 110px; /* Adjust the width as desired */
     padding: 10px 20px;
     border: 2px solid #1b3d78;
     border-radius: 5px;
@@ -46,7 +47,12 @@ body {
     color: #1b3d78;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    box-sizing: border-box; /* Ensure the width includes padding and border */
+    text-align: center; /* Center the text within the button */
+    margin: 0 auto; /* Add margin to horizontally center the buttons */
   }
+  
+  
   
   .section li a:hover {
     background-color: #1b3d78;
@@ -134,5 +140,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .world-image {
+    width: 100%; /* Adjust the width as desired */
+    height: 110%; /* Maintain the aspect ratio */
+    max-height: 420px; /* Set a maximum height if needed */
   }
   
