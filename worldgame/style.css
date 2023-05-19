@@ -1,0 +1,157 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #question-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #options {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .option {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #001437;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #001437;
+    color: #fff;
+  }
+  
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .section {
+    max-width: 630px;
+    margin: 50px auto 10px; /* Adjust the margin-bottom value as desired */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .question-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Adjust the maximum width as desired */
+    margin-bottom: -10px; /* Adjust the negative margin to move the image up */
+  }
+  
+  
+  .section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: 1000;
+  }
+  
+  .section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: 600;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: 300;
+  }
+  
+  .section li {
+    margin-bottom: 10px;
+  }
+  
+  .section li button {
+    display: inline-block;
+    width: 110px;
+    padding: 10px 20px;
+    border: 2px solid #1b3d78;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #1b3d78;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 5px;
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: 600;
+  }
+  
+  .section li button:hover {
+    background-color: #355d9e;
+    color: #fff;
+  }
+  
+  .back-button {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px; /* Adjust the padding to make the button smaller */
+    border: none; /* Remove the border */
+    background-color: transparent; /* Set the background color to transparent */
+    text-decoration: none;
+    color: #001437;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: 600;
+  }
+  
+  .back-button:hover {
+    color: #355d9e; /* Change the button hover color */
+  }
+  
+  .back-button .arrow-icon {
+    display: inline-block;
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-right: 5px;
+  }
+  
+  .navbar-title {
+    color: #001437;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 10px; /* Adjust the padding to match the back button's padding */
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #001437;
+  }
